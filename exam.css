@@ -1,0 +1,702 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;1,200;1,300;1,400;1,500&display=swap');
+
+h3{
+    font-family: "Satisfy", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
+}
+
+/* customizing scrollbar  */
+
+
+
+/* utility class */
+.btn {
+    background-color: #0d636e;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    font-weight: 300;
+    font-size: 1rem;
+    cursor: pointer;
+}
+.btn a{
+    transition: 1s;
+    color: white;
+}
+
+.btn:hover {
+    background-color: #ff0000;
+    transition: background-color 300ms ease-in-out;
+}
+
+.highlight {
+    color: #1b7c88;
+}
+
+.text-gray {
+    color: #525252;
+}
+
+.container {
+    width: 1024px;
+    display: flex;
+    align-items: center;
+}
+
+.header {
+   background-image: url(https://images5.alphacoders.com/345/345228.jpg);
+   background-size: cover;
+}
+
+.navbar input[type="checkbox"],
+.navbar .heading {
+    display: none;
+}
+
+.navbar {
+    width: 96%;
+}
+
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    height: 5rem;
+    align-items: center;
+    padding: 0 1rem;
+    color: white;
+}
+
+.logo {
+    cursor: pointer;
+    color: #8FDDE7;
+    letter-spacing: 5px;
+    
+}
+
+.menu-items {
+    display: flex;
+    align-items: center;
+}
+
+.menu-items li {
+    margin: 0 0.5rem;
+    padding: 0 0.5rem;
+    border-radius: 20px;
+}
+
+.menu-items li:hover {
+    transform: scale(1.1);
+    background-color: rgb(255, 255, 255);
+    transition: all 300ms ease-in-out;
+}
+
+.menu-items li a {
+    font-size: 1rem;
+    font-weight: 500;
+    color: white;
+}
+
+.menu-items li a:hover {
+    color: #8FDDE7;
+    transition: color 300ms ease-in-out;
+}
+
+
+
+
+
+.Honeymoon{
+    width: 100%;
+    padding: 70px 0;
+    
+}
+
+.Honeymoon h1{
+    font-size: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+
+
+
+.Honeymoonbox{
+    width: 90%;
+    margin: 30px 80px;
+    margin-left: 130px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    
+}
+
+.Honeymooncard{
+    width: 350px;
+    height: 550px;
+    padding-top: 10px;
+    margin-bottom: 0px;
+    border: .1px solid black;
+}
+
+.Honeymoonimage img{
+    width: 300px;
+    height: 205px;
+    margin: 0 auto;
+    overflow: hidden;
+    display: flex;
+    
+}
+
+.Honeymoonimage{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    transition: 0.3s;
+}
+
+
+
+
+
+.Honeymooninfo h2{
+    width: 60%;
+    text-align: center;
+    margin: 10px auto 100px auto;
+    margin-top : -320px;
+    font-size: 18px;
+    color: #000000;
+    
+}
+
+.Honeymooninfo p{
+    text-align: center;
+    margin-top: -140px;
+    line-height: 31px;
+    font-size: 16PX;
+    display: flex;
+    text-align: justify;
+    padding: 40px;
+    
+}
+.Honeymooninfo a{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin: 10px 100px;
+    border-radius: 20px;
+    padding: 10px  10px ;
+    background-color: rgb(31, 31, 92);
+    color: white;
+    
+}
+.morepackages a{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    
+    margin: 10px 850px;
+    border-radius: 20px;
+    padding: 10px  10px ;
+    background-color: rgb(38, 38, 185);
+    color: white;
+    
+}
+
+
+
+
+
+.Special h1{
+ padding: 20px;
+ justify-content: center;
+ display: flex;
+}
+
+.boatrace{
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/4/4f/Kerala_boatrace.jpg); 
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.boatrace h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.boatbtn{
+    padding: 20px;
+    
+}
+
+
+
+.northindia{
+    width: 100%;
+    padding: 70px 0;
+    
+}
+
+.northindia h1{
+    font-size: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+
+
+
+.northindiabox{
+    width: 90%;
+    margin: 90px 100px;
+    margin-left: 130px;
+    display: grid;
+    grid-template-columns: 4fr 4fr 4fr 4fr;
+    grid-gap: -50px;
+    
+}
+
+.northindiacard{
+    width: 330px;
+    height: 240px;
+    padding-top: 10px;
+    margin-top: -10px;
+    border: .1px solid black;
+    border-radius: 30px;
+}
+
+.northindiaimage img{
+    width: 300px;
+    height: 205px;
+    margin: 0 auto;
+    overflow: hidden;
+    display: flex;
+    margin-top: 5px;
+    border-radius: 20px;
+    
+}
+
+.northindiaimage{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    transition: 0.3s;
+}
+
+
+
+
+
+
+.premium{
+    width: 100%;
+    padding: 70px 0;
+    
+}
+
+.premiumf h1{
+    font-size: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.premiumf h3{
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+    
+      
+}
+
+
+.premiumfbox{
+    width: 90%;
+    margin: 30px 80px;
+    margin-left: 130px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    color: aliceblue;
+    
+}
+
+.premiumfcard{
+    width: 250px;
+    height: 250px;
+    padding-top: 10px;
+    margin-bottom: 0px;
+    border: 1px solid rgb(109, 109, 109);
+    border-radius: 50px;
+    background-color: #e7dede;
+}
+
+.premiumfimage img{
+    width: 150px;
+    height: 145px;
+    margin: 0 auto;
+    overflow: hidden;
+    display: flex;
+    border-radius: 100px;
+    
+}
+
+.premiumfimage{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    transition: 0.3s;
+}
+
+
+
+
+
+.premiuminfo {
+    width: 60%;
+    text-align: center;
+    margin: 10px auto 100px auto;
+    margin-top : -75px;
+    font-size: 18px;
+    color: #4d510a;
+    
+}
+
+.premiumfinfo p{
+    text-align: center;
+    margin-top: -140px;
+    line-height: 31px;
+    font-size: 16PX;
+    display: flex;
+    text-align: justify;
+    padding: 40px;
+    
+}
+.premiumfinfo a{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin: 10px 100px;
+    border-radius: 20px;
+    padding: 10px  10px ;
+    background-color: rgb(31, 31, 92);
+    color: white;
+    
+}
+
+
+
+
+.footer {
+    background: linear-gradient(90deg, #92c48f, rgb(199, 172, 172));
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.col {
+    max-width: 420px;
+    padding: 1rem 1px;
+}
+
+.single_footer h4 {
+    color: #fff;
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+
+
+
+
+.single_footer ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.single_footer ul li,
+.single_footer ul li a {
+    color: #fff;
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    line-height: 36px;
+    font-size: 15px;
+    text-transform: capitalize;
+}
+
+
+
+
+
+
+.subscribe__input {
+    background-color: #000000;
+    border: medium none;
+    border-radius: 5px;
+    color: #ffffff;
+    display: block;
+    font-size: 15px;
+    font-weight: 500;
+    height: 60px;
+    letter-spacing: 0.4px;
+    margin: 0;
+    
+    text-align: left;
+    text-transform: capitalize;
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+.social_profile {
+    
+   margin-top: -110px;
+}
+
+.social_profile ul {
+    list-style: outside none none;
+    margin: 0;
+    padding: 10px;
+    margin-left: -30px;
+}
+
+#Follow{
+    color: #ffffff;
+}
+
+.social_profile ul li {
+    float:left;
+}
+
+.social_profile ul li a {
+    text-align: center;
+    border: 0px;
+    background: #1318a57c;
+    text-transform: uppercase;
+    transition: all 0.3s ease 0s;
+    margin: 0px 8px;
+    font-size: 18px;
+    color: #ffffff;
+    border-radius: 90px;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    display: block;
+    border: 1px solid rgba(122, 116, 116, 0.458);
+}
+
+
+
+.copyright {
+    margin-top: 10px;
+    padding-top: 60px;
+    color: #fff;
+    font-size: 15px;
+    text-align: center;
+}
+
+.copyright a {
+    color: #00d9ff;
+    margin-left: 10px;
+   
+    transition: all 0.2s ease 0s;
+}
+
+.copyright a:hover {
+    color: #1b7c88;
+}
+
+
+
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;1,200;1,300;1,400;1,500&display=swap');
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
+}
+
+/* customizing scrollbar  */
+
+
+
+/* utility class */
+.btn {
+    background-color: #0d636e;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    font-weight: 300;
+    font-size: 1rem;
+    cursor: pointer;
+}
+.btn a{
+    transition: 1s;
+    color: white;
+}
+
+.btn:hover {
+    background-color: #ff0000;
+    transition: background-color 300ms ease-in-out;
+}
+
+.highlight {
+    color: #1b7c88;
+}
+
+.text-gray {
+    color: #525252;
+}
+
+.container {
+    width: 1024px;
+    display: flex;
+    align-items: center;
+}
+
+.header {
+    background: url(https://wallpaperaccess.com/full/1546328.jpg);
+    background-size: cover;
+    min-height: 10vh;
+    width: 100%;
+}
+
+.navbar input[type="checkbox"],
+.navbar .hamburger-lines {
+    display: none;
+}
+
+.navbar {
+    width: 100%;
+}
+
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    height: 5rem;
+    align-items: center;
+    padding: 0 1rem;
+    color: white;
+}
+
+.logo {
+    cursor: pointer;
+    color: #1f3133;
+    letter-spacing: 5px;
+    
+}
+.logo span{
+    color: yellow;
+}
+.menu-items {
+    display: flex;
+    align-items: center;
+}
+
+.menu-items li {
+    margin: 0 10px;
+    padding: 0 10px;
+    border-radius: 20px;
+}
+
+.menu-items li:hover {
+    transform: scale(1.1);
+    background-color: rgb(255, 255, 255);
+    transition: all 300ms ease-in-out;
+}
+
+.menu-items li a {
+    font-size: 1rem;
+    font-weight: 500;
+    color: white;
+}
+
+
+
+/* home  */
+.home-container {
+    /* width: 100vw; */
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+}
+
+.home {
+    /* width: 100%; */
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 2rem;
+    padding-top: 3rem;
+}
+
+.home h1 {
+    font-size: 4rem;
+}
+
+.home p {
+    text-align: end;
+    font-size: 50px;
+    padding: 0 5rem;
+}
+#head{
+    font-size: 50px;
+    font-weight: 700;
+}
